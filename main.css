@@ -1,0 +1,200 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+    height: 86px;
+}
+
+#pfirst {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FF8000;
+}
+
+#first {
+    width: 696px;
+    height: 662px;
+    margin-top: 63px;
+}
+
+#h2first {
+    color: #D9AE00;
+    text-align: left;
+    vertical-align: top;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+}
+
+#psecond {
+    margin-top: 24px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #6D81B4;
+    text-align: left;
+    vertical-align: top;
+    width: 681px;
+    height: 145px;
+    margin: 0;
+}
+
+#imgfirst {
+    margin-top: 30px;
+    width: 696px;
+    height: 415px;
+}
+
+#second {
+    margin-top: 101px;
+    width: 1007px;
+    height: 717px;
+    background-color: #FFCEBE;
+    border: 2px solid black;
+}
+
+#h2second {
+    text-align: center;
+    vertical-align: top;
+    width: 681px;
+    height: 48px;
+    color: #F44E50;
+    font-size: 40px;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#pthird {
+    text-align: center;
+    vertical-align: top;
+    width: 681px;
+    height: 72px;
+    font-size: 20px;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B2B2C;
+}
+
+#blackh {
+    display: inline-block;
+    text-align: center;
+    margin-top: 64px;
+    margin-left: 163px;
+}
+
+#imgsecond {
+    display: block;
+    text-align :center;
+    margin: 0 auto;
+    width: 879px;
+    height: 415px;
+}
+
+#third {
+    margin-top: 101px;
+    width: 696px;
+    height: 1041px;
+}
+
+#h2third {
+    text-align: right;
+    vertical-align: top;
+    font-size: 40px;
+    color: #4716E4;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 48px;
+}
+
+#pffs {
+    background-color: #FFC1E3;
+    border: 3px solid #FF5DA3;
+}
+
+#pfourth {
+    text-align: right;
+    vertical-align: top;
+    font-size: 24px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #616161;
+    width: 648px;
+    height: 174px;
+}
+
+#f2 {
+    width: 696px;
+    height: 272px;
+}
+
+#h3first {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    color: #414651;
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  ul li {
+    position: relative; /* Make it easier to position the custom bullet */
+    padding-left: 30px; /* Space for the custom bullet */
+  }
+  
+  ul li::before {
+    content: ''; /* Make the pseudo-element empty */
+    position: absolute;
+    left: 0; /* Align the bullet to the left of the list item */
+    top: 50%; /* Vertically center the bullet */
+    transform: translateY(-50%); /* Correct for any slight vertical misalignment */
+    width: 16px; /* Width of the bullet */
+    height: 16px; /* Height of the bullet */
+    background-color: black; /* Bullet color */
+    border-radius: 90%; /* Make the bullet circular */
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+#ulfirst {
+    margin-top: 16px;
+    color: #C27512;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 232px;
+    width: 696px;
+}
+
+#imgthird {
+    margin-top: 30px;
+    height: 415px;
+    width: 696px;
+}
